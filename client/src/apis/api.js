@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// const BASE_URL = 'http://192.168.0.85:8080';
 const BASE_URL = 'http://43.201.10.6:8080';
+// const BASE_URL = 'http://localhost:8080/';
 
 export const getclassNameAndSemiarType = async () => {
   return await axios
