@@ -6,7 +6,7 @@
     </button>
     <div class="btn_wrap" v-show="!isLogin">
       <button @click="onClickLogout">양선주짱</button>
-      <button @click="() => goPage(`/estimation/select`)">평가하기</button>
+      <button @click="() => goPage(`/estimation/select`)">한윤서짱</button>
       <button @click="() => goPage(`/result`)">결과보기</button>
     </div>
   </main>
