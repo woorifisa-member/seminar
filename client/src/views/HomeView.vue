@@ -1,6 +1,6 @@
 <template>
   <main>
-    <h1>기술 세미나 평가22212121</h1>
+    <h1>2222기술 세미나 평가22212121</h1>
     <button v-show="isLogin" @click="() => goPage({ name: 'login', state: { login: isLogin } })">
       로그인
     </button>
